@@ -1,4 +1,3 @@
-
 <template>
   <div class="node-item">
     <div class="node-content" @click="isshow=!isshow">

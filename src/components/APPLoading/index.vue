@@ -1,4 +1,3 @@
-
 <template>
   <div v-show="show" class="loading-container" :class="{loaded:show}">
     <div class="mask" />

@@ -1,4 +1,3 @@
-
 import APPToast from './index.vue'
 export default {
   install(Vue, options) {

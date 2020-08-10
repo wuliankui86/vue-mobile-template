@@ -1,4 +1,3 @@
-
 <template>
   <transition name="toast">
     <div v-show="show" :style="`background:${typeList[type].color}`" class="app-toast">
