@@ -1,0 +1,37 @@
+@mixin transform($trans) {
+  -moz-transform: $trans;
+  -o-transform: $trans;
+  -ms-transform: $trans;
+  -webkit-transform: $trans;
+  transform: $trans;
+}
+
+@mixin transition($trans) {
+  -moz-transition: $trans;
+  -o-transition: $trans;
+  -ms-transition: $trans;
+  -webkit-transition: $trans;
+  transition: $trans;
+}
+.btn-wave {
+  position: relative;
+  overflow: hidden;
+}
+@keyframes wave {
+  from {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(0);
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.wave {
+  position: absolute;
+  border-radius: 100%;
+}
+.anim {
+  animation: wave 0.75s ease-out;
+}

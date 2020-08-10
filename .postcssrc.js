@@ -1,28 +1,3 @@
-# vue-mobile-template
-
-基于 vue-cli4.0 + vant ui + sass+ vw 适配方案+axios 封装等，构建的手机端脚手架
-
-<p>
-  <img src="./img/demo1.png" width="320" style="display:inline;">
-  <img src="./img/demo2.png" width="320" style="display:inline;">
-  <img src="./img/demo3.png" width="320" style="display:inline;">
-</p>
- 
-# 启动项目
-
-npm install
-
-npm run serve
-
-### <span id="rem">✅ vw 适配方案 </span>
-
-之前做移动端适配时，基本上是采用rem方案，但现在viewport单位越来越受到众多浏览器的支持
-
-Vant 中的样式默认使用px作为单位，在这里我们使用vw进行适配，使用的是下面的一个工具：
-
-- 【postcss-px-to-viewport】，将px单位自动转换成viewport单位
-
-```javascript
 module.exports = {
     plugins: {
       autoprefixer: {
