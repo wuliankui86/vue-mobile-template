@@ -8,6 +8,14 @@
   <img src="./img/demo3.png" width="320" style="display:inline;">
 </p>
  
+# 线上地址
+
+<p align="center">
+  <a href="http://121.196.24.206/">
+    vue-mobile-template
+  </a>
+</p>
+
 # 启动项目
 
 npm install
