@@ -10,7 +10,7 @@
  
 # 线上地址
 
-<p align="center">
+<p >
   <a href="http://121.196.24.206/">
     vue-mobile-template
   </a>
