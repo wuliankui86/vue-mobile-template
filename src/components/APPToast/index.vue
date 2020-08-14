@@ -19,9 +19,7 @@ export default {
     return {
       show: false,
       msg: '',
-      options: {
-        duration: 3000
-      },
+      duration: 3000,
       toast: null,
       typeList: {
         'default': {
@@ -45,14 +43,14 @@ export default {
     }
   },
   methods: {
-    showToast(ty) {
+    showToast() {
       if (this.toast) {
         clearTimeout(this.toast);
       }
       this.show = true
       this.toast = setTimeout(() => {
         this.show = false
-      }, this.options.duration);
+      }, this.duration);
     }
   }
 
